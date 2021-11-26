@@ -22,7 +22,8 @@
     <link rel="stylesheet" href="./style.css"> 
     <title>Horny App</title>
 </head>
-<body class="body-index">
+<body>
+    <div>
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -45,20 +46,73 @@
                     <a class="nav-link" href="#">Asistencia</a>
                   </li>
                 </ul>
-                
+                <span id="title-nav">Horny App</span>
                 <span class="slogan">
                   Para gustos <strong id="horny">Horny</strong>
                 </span>
               </div>
             </div>
           </nav>
+        
+
     </header>
-            <div class="container">
-                <h1 class="title-index text-center">Horny App</h1>
-                <h3 class="sub text-center">Viví tu sexualidad, viví nuevas experiencias</h3>
-                <p class="text-center"><a id="btn-login" href="./login.html">Inicia Sesion</a></p>
-            </div>
-    <footer>
+
+    <h2 class="text-center">Inicia sesión para empezar a divertirte:</h2>
+
+    <div class="container card-form">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Nombre</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Apellido</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Agregá una pequeña descripción:</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Me gusta jugar a la pelota y me calientan los animales.">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Seleccioná el fetiche que mas se acerca a tu busqueda:</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Role Play</option>
+            <option value="1">Masoquismo</option>
+            <option value="2">Pies</option>
+            <option value="3">Lencería erótica</option>
+            <option value="4">Sadomasoquismo</option>
+            <option value="5">Esclavitud</option>
+            <option value="6">Voyeurismo</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">País</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Provincia</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Buenos Aires</option>
+            <option>Otros...</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ingresa tu email:</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ingresa tu número de telefono:</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn sign-in">Sign in</button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+      <footer>
             
         <nav class="footer-index d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
             <p class="col-md-4 mb-0">© 2021 Horny App</p>
@@ -74,8 +128,11 @@
               <li class="nav-item"><a href="#" class="px-2 text-muted">Asistencia</a></li>
             </ul>
           </nav>
-    </footer>
+      </footer>
     
+    
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -2,6 +2,11 @@ html {
     font-family: 'Varela Round', sans-serif;
 }
 
+.body-index {
+    background: rgb(55,114,255);
+    background: linear-gradient(35deg, rgba(55,114,255,1) 0%, rgba(240,56,255,0.5707656612529002) 20%, rgba(239,112,157,1) 40%, rgba(226,239,112,1) 60%, rgba(112,228,239,1) 80%);
+}
+
 #title-nav {
     font-family: 'Comfortaa', cursive;
     font-size: 4rem;
@@ -9,7 +14,15 @@ html {
     margin-right: 5.5rem;
 }
 
-h1 {
+.title-index {
+    font-family: 'Comfortaa', cursive;
+    font-size: 6rem;
+    font-weight: bold;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.title-producto {
     font-family: 'Comfortaa', cursive;
     font-size: 4rem;
     font-weight: bold;
@@ -26,8 +39,31 @@ h1 {
 
 }
 
+a {
+    color: white;
+}
+
+#btn-login {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+    border: solid 1.5px black;
+    border-radius: 8px;
+    
+}
+
+.sub{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    margin-bottom: 6rem;
+    background-color: black;
+    border-radius: 10px;
+}
+
 .carousel-item {
     transition: none;
+
 }
 
 .title {
