@@ -1,0 +1,182 @@
+html {
+    font-family: 'Varela Round', sans-serif;
+}
+
+#title-nav {
+    font-family: 'Comfortaa', cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-right: 5.5rem;
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    border-radius: 15px;
+    border: 3px solid ;
+    padding: 10px;
+    background: rgb(55,114,255);
+    background: linear-gradient(35deg, rgba(55,114,255,1) 0%, rgba(240,56,255,0.5707656612529002) 20%, rgba(239,112,157,1) 40%, rgba(226,239,112,1) 60%, rgba(112,228,239,1) 80%);
+    box-shadow: 3px 3px 7px 5px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 3px 3px 7px 5px rgba(0,0,0,0.54);   
+    -moz-box-shadow: 3px 3px 7px 5px rgba(0,0,0,0.54);
+
+}
+
+.carousel-item {
+    transition: none;
+}
+
+.title {
+    max-width: 45%;
+}
+
+.card {
+    max-width: 70%;
+}
+
+nav {
+    background: rgb(55,114,255);
+    background: linear-gradient(35deg, rgba(55,114,255,1) 0%, rgba(240,56,255,0.5707656612529002) 20%, rgba(239,112,157,1) 40%, rgba(226,239,112,1) 60%, rgba(112,228,239,1) 80%);
+    box-shadow: 3px 3px 7px 5px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 3px 3px 7px 5px rgba(0,0,0,0.54);   
+    -moz-box-shadow: 3px 3px 7px 5px rgba(0,0,0,0.54);
+}
+
+footer {
+    background: rgb(55,114,255);
+    background: linear-gradient(35deg, rgba(55,114,255,1) 0%, rgba(240,56,255,0.5707656612529002) 20%, rgba(239,112,157,1) 40%, rgba(226,239,112,1) 60%, rgba(112,228,239,1) 80%);
+}
+
+.footer-index {
+    margin-top: 3rem;
+    font-size: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.mb-0 {
+    color: white;
+}
+
+.logo {
+    max-width: 60px;
+    margin-right: 50px;
+}
+
+.slogan {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-right: 3rem;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+}
+
+#horny {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.foto-perfil {
+    max-width: 65%;
+    border-radius: 60px;
+}
+
+#centrador{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: rgb(140,174,255);
+    background: linear-gradient(35deg, rgba(140,174,255,1) 0%, rgba(248,157,255,0.31743119611125703) 20%, rgba(242,151,183,1) 40%, rgba(231,239,154,1) 60%, rgba(157,232,239,1) 80%);  }
+
+#imagen{
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#like {
+    width: 80px;   
+    }
+
+#dislike{
+    width: 80px;
+
+}
+
+.navbar-toggler {
+    border: 0.5px solid black;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#action {
+    border-right: solid 5px black;
+}
+
+/*Card de persona para mobiles*/
+@media only screen and (max-width:768px) {
+    .logo { 
+        width: 35px;
+        
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    #centrador {
+        position: relative;
+        width: 450px;
+        height: 450px;
+    }
+
+    #imagen {
+        right: 64px   ;
+     }
+
+
+}
+
+.card-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    margin-top: 3rem;
+    box-shadow: 20px 20px 8px 8px rgba(231,239,154,1); 
+    -webkit-box-shadow: 20px 20px 8px 8px rgba(242,151,183,1);
+    -moz-box-shadow: 20px 20px 8px 8px rgba(140,174,255,1);
+
+ 
+}
+
+h2 {
+    margin-top: 2rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.sign-in {
+    color: black;
+    background: linear-gradient(35deg, rgba(55,114,255,1) 0%, rgba(240,56,255,0.5707656612529002) 20%, rgba(239,112,157,1) 40%, rgba(226,239,112,1) 60%, rgba(112,228,239,1) 80%);
+    border-color: black;
+}
+
+
