@@ -43,6 +43,8 @@ a {
     color: white;
 }
 
+
+
 #btn-login {
     background-color: white;
     color: black;
@@ -183,6 +185,17 @@ footer {
         right: 64px   ;
      }
 
+
+}
+
+@media only screen and (min-width:1024px) {
+.footer-index {
+    margin-top: 20rem;
+}
+
+#index {
+    margin-top: 20rem;
+}
 
 }
 
